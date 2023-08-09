@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tamanhos e variações de fontes</title>
+    <style>
+        body {
+            @import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+
+            font-family: Arial, Helvetica, sans-serif; /*Sempre Deixar uma opção genérica, como sans-serif por segurança de compatibilidade*/ 
+
+            /*  FONT SIZE
+
+                Medidas Absolutas
+                cm, mm, in, px, pt, pc
+
+                Medidas Relativas
+                em, ex, rem, vw, vh, %
+                em: algo relacionado a altura da letra m 
+
+                Recomendação da W3C. para sites: (px, em)
+                16px: tamanho padrão, geralmente
+                16px aproximadamente 1em
+
+                Preferencialmente, utilizar em, por ser uma medida proporcional ao padrão, livrando-se da questão dos pixels que pode ser diferente entre os dispositivos...
+
+                Curiosidade: pt geralmente são aqueles usados para editores de textos, de documentos que serão impressos
+            */
+            font-size: 16px;
+
+            font-weight: lighter;
+
+            font-style: italic;
+
+            text-decoration: underline; /* sublinhado */
+
+            /*Shorthand font:
+            
+                style -> weight -> size -> family
+
+                Na prática-> font: italic bolder 3em sans-serif;
+
+                curiosidade: existem outros shorthands
+            
+            */
+
+            /* Google Fonts*/
+           
+        }
+
+        p#p2 {
+            font-family: 'Rock Salt', cursive;
+        }
+    </style>
+</head>
+<body>
+    <h1>Tamanho de fonte</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi perspiciatis distinctio voluptatibus delectus deserunt mollitia asperiores perferendis quisquam molestias quia? Iste animi dolorum quos illum quaerat earum excepturi a! Fugiat.
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi debitis et exercitationem repellendus deserunt temporibus, ullam hic aliquam consequuntur voluptatibus mollitia dolore dicta culpa laboriosam corporis quam perspiciatis ut a!
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem obcaecati laborum expedita. Fuga facilis animi ex porro. Repudiandae sapiente sit quia ullam, deserunt culpa possimus! Voluptate perspiciatis aperiam libero alias?
+    </p>
+    <p id="p2">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam mollitia dolores assumenda voluptas repudiandae consequuntur suscipit harum. Perferendis illum, ea incidunt neque asperiores aut magnam, voluptates deserunt non veritatis repellat?
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore quasi repellendus aliquid animi voluptatibus itaque hic in, enim aspernatur voluptate quidem asperiores, maiores, nemo laboriosam molestiae nostrum quaerat dignissimos quia!
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo blanditiis quia tenetur facere voluptatibus recusandae quasi illum laboriosam esse aspernatur dignissimos sequi totam unde, ullam possimus amet velit facilis! Beatae.
+    </p>
+</body>
+</html>

@@ -1,0 +1,13 @@
+@charset "UTF-8"; /*Eliminando problemas de caracteres especiais*/
+
+* {
+    height: 100%; /*Degrade de cima para baixo precisa disso*/
+}
+
+body{
+    background-image: linear-gradient(to right, );
+}
+
+p {
+    text-align: justify;
+}
